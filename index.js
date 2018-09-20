@@ -4,7 +4,7 @@ function takeANumber(place, name) {
 }
 
 function takeANumberAlternate(line){//line is an array
-  var t = 0
+  var t = 0 
   t++
   line.push(t)
   return `You are number ${t}`
