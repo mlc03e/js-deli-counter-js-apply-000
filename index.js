@@ -5,7 +5,7 @@ function takeANumber(place, name) {
 
 function takeANumberAlternate(){
   
-  return `You are number ${}`
+  return `You are number ${x}`
 }
 
 function nowServing(line){
