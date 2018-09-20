@@ -1,6 +1,11 @@
 function takeANumber(place, name) {
   place.push(name);
-  return "Welcome," + " " + name + ". You are number" +" " + place.length +" " +  "in line."
+  return "Welcome, "+ name + ". You are number" +" " + place.length +" " +  "in line."
+}
+
+function takeANumberAlternate(){
+  
+  return `You are number ${}`
 }
 
 function nowServing(line){
