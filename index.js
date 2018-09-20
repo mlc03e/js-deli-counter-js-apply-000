@@ -2,9 +2,10 @@ function takeANumber(place, name) {
   place.push(name);
   return "Welcome, "+ name + ". You are number" +" " + place.length +" " +  "in line."
 }
-
+var humzah = "humzah"
 function takeANumberAlternate(line){//line is an array
   var t = 0 
+  console.log(humzah)
   t++
   line.push(t)
   return `You are number ${t}`
