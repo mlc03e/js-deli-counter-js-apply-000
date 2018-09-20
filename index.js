@@ -3,7 +3,7 @@ function takeANumber(place, name) {
   return "Welcome, "+ name + ". You are number" +" " + place.length +" " +  "in line."
 }
 
-var t = 0 
+const t = 0 
 function takeANumberAlternate(line){//line is an array
   t++
   line.push(t)
